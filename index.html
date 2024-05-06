@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Angelo Nolasco</a>
+        </div>
+        <div class="right">
+            <!--Github link-->
+            <a href="http://github.com/AngeloNol" target="_blank" rel="noopener 
+            noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+            <!--Linkedin link-->
+            <a href="https://www.linkedin.com/in/angeloanolasco/" target="_blank" rel="noopener 
+            noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <!--email -->
+            <a href="mailto:angelon3121@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section 1: Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Angelo 👋</h2>
+                <p>Recent graduate from University of Nevada, Las Vegas with Bachelor of Science 
+                    in Computer Engineering. I studied in embedded systems, which allowed me to 
+                    work with 8-bit and 32-bit microcontrollers both programmed in C/C++ and little bit in Python.
+                    Seeking new Grad opportunities in software engineerinng or embedded software engineering for 2024.</p>
+
+                <div class="link">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#projects">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Projects</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/headshot.webp" alt="headshot">
+
+            </div>
+        </section>
+
+        <!-- Section 2: projects-->
+        <section id="projects" class="projects-section">
+            <h1>Projects</h1> 
+            <p>My personal projects and University projects</p>
+
+            <div class="project1">
+                <!--Weather webisite-->
+                <img src="images/weather.webp" alt="weather">
+                <div id="square"  class="weather">
+                    <h3>Weather Website</h3>
+                    <p>Designed a weather website using the OpenWeatherMap API 
+                        allowing the user to enter a city resulting in showing weather 
+                        information</p>
+                    <a href="http://https://python-weather-ouaj.onrender.com" target="_blank" rel="noopener 
+                        noreferrer">
+                        <i class="fa-solid fa-globe"></i>
+                        <span>Python-weather</span>
+                    </a>
+                    
+                </div>
+
+
+            </div>  
+
+            <div class="project2">
+                <!--Smart Shower Head-->
+                <img src="images/SmartShowerHead.webp" alt="SmartShowerHead">
+                <div id="square"  class="shower">
+                    <h4>Smart Shower Head</h4>
+                    <p>Designed a shower head implemented using 2 Raspberry PI and VScode allowing the users to see how much water
+                        they waste, water flow, temperature and integrated Spotify</p>
+                    <a href="https://github.com/jpenolio75/smart_shower_head" target="_blank" rel="noopener 
+                        noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </a>
+                    
+                </div>
+
+
+
+            </div>  
+
+            <div class="project3">
+                <!--Four Task-->
+                <img src="images/four.webp" alt="FourTask">
+                <div id="square"  class="Four">
+                    <h5>Four Task</h5>
+                    <p> Designfour tasks implemented on a CC1352 TIRTOS microcontroller written in embedded C resulting in three of the
+                        tasks to be executed every 15m, involved blinking LED, UART display, PWM and ADC value</p>
+                    <a href="https://github.com/AngeloNol/Design_Assignments/tree/master/DesignAssignment/CC1352R1/Assignment%204" target="_blank" rel="noopener 
+                        noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </a>
+                    
+                </div>
+
+
+            </div>
+            
+            <div class="project4">
+                <!--NoiseDetector-->
+                <img src="images/noise.webp" alt="Noise">
+                <div id="square"  class="Noise">
+                    <h6>Four Task</h6>
+                    <p>Designed a noise detector implemented on LTSpice showing the noise level on LTSpice graph</p>
+                    <a href="https://github.com/AngeloNol/Noise_Detector" target="_blank" rel="noopener 
+                        noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </a>
+                </div>
+
+
+            </div>  
+
+
+
+
+        </section>
+
+        <!-- Section 3: Skills-->
+        <section id="skills" class="skills-sections">
+            <h2>Skills</h2>
+            <div class="skills">
+                <h3>Proficient</h3>
+                <ul>
+                    <li>C++</li>
+                    <li>C</li>
+                    <li>SystemVerilog</li>
+                </ul>
+                <h4>Semi-Proficient</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>Html</li>
+                    <li>CSS</li>
+                </ul>
+                <h5>Familiar</h5>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>MIPS</li>
+                    <li>RISC-V</li>
+                </ul>
+
+            </div>
+            
+            
+        </section>
+
+        <a href="pdf/Angelo-resume.pdf" download class="btn btn--download">
+            Download
+            <span class="u-bolder">Resume</span>
+        </a>
+
+
+    </main>
+    
+</body>
+</html>
